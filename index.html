@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Main SEction -->
+
+    <div class="wrapper w-75 mx-auto border rounded-3">
+      <header>
+        <div class="container py-1">
+          <h1 class="gradient-text">Bookmarker</h1>
+        </div>
+      </header>
+      <main class="text-center w-50 mx-auto">
+        <div class="container">
+          <h2 class="fw-bold mb-5 text-black-50 gradient-h2">Bookmark your favorite sites</h2>
+          <p class="fs-5 mb-2 fw-bold text-start">Site Name</p>
+          <input id="siteName" type="text" class="form-control mb-2" />
+          <p class="text-start fs-6 ms-3 text-danger d-none" id="invalidName">
+            Bookmark Name Must Start with a Character & Contain At least 4 Character
+          </p>
+          <p class="fs-5 mb-2 fw-bold text-start">Site URL</p>
+          <input id="siteUrl" type="text" class="form-control mb-3" />
+          <p class="text-start fs-6 ms-3 text-danger d-none" id="invalidUrl">Site URL must begin with ( <span class="text-black">https</span> )</p>
+          <button class="btn btn-outline-primary mt-3" id="book">Add Bookmark</button>
+        </div>
+      </main>
+
+      <!-- Table Section -->
+      <div class="container">
+        <table class="table w-75 mx-auto text-center fs-5">
+          <thead>
+            <th>Site Name</th>
+            <th>Visit</th>
+            <th>Delete</th>
+          </thead>
+          <tbody id="tableDate"></tbody>
+        </table>
+      </div>
+    </div>
+    <!-- JAVA SCRIPT -->
+    <script src="js/index.js"></script>
+  </body>
+</html>

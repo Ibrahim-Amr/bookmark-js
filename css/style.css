@@ -1,0 +1,82 @@
+body {
+   font-family: 'Roboto', sans-serif;
+   background-color: red;
+   background-image: linear-gradient(45deg, #f3ec78, #af4261);
+   background-size: 100%;
+   background-repeat: repeat;
+}
+
+p,
+th {
+   background-color: red;
+   background-image: linear-gradient(45deg, #af4261, #9e9600);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+}
+
+
+
+.wrapper {
+   background: rgba(255, 255, 255, 0.35);
+   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+   backdrop-filter: blur(5.5px);
+   -webkit-backdrop-filter: blur(5.5px);
+   border-radius: 10px;
+   border: 1px solid rgba(255, 255, 255, 0.18);
+   min-height: 100vh;
+}
+
+.container {
+   padding: 20px;
+   margin: 15px auto;
+   font-size: 25px;
+}
+
+
+.gradient-text {
+   background-color: red;
+   background-image: linear-gradient(45deg, #d34a71, #f1eb72);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+}
+
+.gradient-h2 {
+   background-color: red;
+   background-image: linear-gradient(45deg, #af4261, #9e9600);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+}
+
+input {
+   color: #c0ba43 !important;
+}
+
+input:focus {
+   outline: none !important;
+   border-color: #f1eb72 !important;
+   box-shadow: 0 0 10px #d34a71 !important;
+}
+
+.form-control::placeholder {
+   background-color: rgba(255, 0, 0/0.5);
+   background-image: linear-gradient(45deg, #b04261, #9e9600);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+
+}
+
+.bm-name {
+   color: #d34a71;
+}
+
+table {
+   border-color: #d34a71 !important;
+}
